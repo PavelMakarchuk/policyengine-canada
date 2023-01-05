@@ -1,0 +1,20 @@
+description: Ontario energy and property tax credit reduction for families of seniors.
+brackets:
+  - threshold:
+      2023-01-01: 0
+    rate:
+      2023-01-01: 0
+  - threshold:
+      2023-01-01: 39_803
+    rate:
+      2023-01-01: 0.02
+
+
+metadata:
+  type: marginal_rate
+  rate_unit: /1
+  threshold_unit: currency-CAD
+  label: Ontario energy and property tax credit reduction family seniors.
+  reference:
+  - title: Ontario Data Set - Personal income tax rates and credits - 2023
+    href: https://data.ontario.ca/dataset/personal-income-tax-rates-and-credits

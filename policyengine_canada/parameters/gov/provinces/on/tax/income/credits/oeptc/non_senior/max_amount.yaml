@@ -1,0 +1,9 @@
+description: Ontario energy and property tax credit maximum amount for non-seniors.
+values:
+  2023-01-01: 1_194
+metadata:
+  unit: currency-CAD
+  label: Ontario energy and property tax credit maximum amount non-senior
+  reference:
+  - title: Ontario Data Set - Personal income tax rates and credits - 2023
+    href: https://data.ontario.ca/dataset/personal-income-tax-rates-and-credits
