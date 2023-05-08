@@ -29,4 +29,4 @@ class ns_child_benefit(Variable):
             lower_income_amount,
             higher_income_base + higher_income_additional_child,
         )
-        return where(eligible, amount_if_eligible, 0)
+        return eligible * amount_if_eligible
